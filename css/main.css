@@ -1,0 +1,248 @@
+@charset "UTF-8";
+/* CSS Document */
+.lonnhat {
+  width: 100%;
+  height: 1500px;
+}
+.hd {
+  width: 100%;
+  height: 60px;
+  background-color: #555555;
+padding: 0 10px;
+}
+.logo {
+  width: 25%;
+  height: 60px;
+  float: left;
+  padding: 0 30px;
+}
+.menu {
+  width: 40%;
+  height: 60px;
+  float: right;
+    
+}
+.menu ul {
+  margin: 0 0 0 0px;
+  padding: 0;
+  list-style: none;
+}
+.menu ul li {
+  float: left;
+  padding: 20px;
+  position: relative;
+}
+.menu ul li a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.menu ul li:hover {
+  background-color: aliceblue;
+}
+ul li ul {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  visibility: hidden;
+    background-color: #555555;
+  width: 80px;
+}
+ul li:hover ul {
+  visibility: visible;
+}
+.banner {
+  width: 100%;
+  height: 400px;
+  background-color: #828282;
+    text-align:  center;
+    padding: 100px 30%;
+    box-sizing: border-box;
+    position: relative;
+}
+.nutbanner{
+    width: 100px;
+    height: 45px;
+    background-color: #3072Df;
+    position: absolute;
+    top: 55%;
+    left:46%;
+    border-radius: 20px;
+}
+.intro {
+  width: 100%;
+  height: 400px;
+  background-color: #cfcfcf;
+}
+.introlon {
+  width: 100%;
+  height: 200px;
+}
+.introcon {
+  width: 30%;
+  height: 166px;
+
+  float: left;
+  margin: 17px;
+    padding: 1%;
+    box-sizing: border-box;
+}
+.introconhinh{
+    width: 40%;
+    height: 100%;
+  
+    float: left;
+    padding: 5%;
+    box-sizing: border-box;
+}.introconchu{
+    width: 60%;
+    height: 100%;
+font-size: 15px;
+    float: left;
+     padding:5% 0;
+    box-sizing: border-box;
+}
+.video {
+  width: 100%;
+  height: 400px;
+    background-color: #828282;
+}
+.chu {
+  width: 50%;
+  height: 100%;
+  background-color: #828282;
+  float: left;
+    padding: 3%;
+    box-sizing: border-box;
+    position:relative;
+}
+.nutchu{
+    width: 100px;
+    height: 45px;
+    background-color: #3072Df;
+    position: absolute;
+    top: 70%;
+    left:5%;
+    border-radius: 20px;
+}
+    
+
+.clip {
+  width: 40%;
+  height: 80%;
+  background-color: white;
+  float: left;
+    margin: 2.5% 0 0 0;
+    position: relative;
+}
+.nutclip{
+    width: 60px;
+    height: 60px;
+    background-color: #cfcfcf;
+    position: absolute;
+top: 40%;
+    left: 45%;
+    border-radius: 50%;
+    text-align: center;
+    padding: 17px 0;
+        box-sizing:border-box;
+}
+.content {
+  width: 100%;
+  height: 500px;
+  background-color: #cfcfcf;
+      padding: 0 auto;
+    box-sizing: border-box;
+}
+.contentlon1{
+    width: 100%;
+    height: 80px;
+    
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0 0 0;
+    box-sizing: border-box;
+}
+.contentlon2 {
+  width: 100%;
+  height: 200px;
+ 
+}
+.contentnho {
+  width: 30%;
+  height: 166px;
+
+  float: left;
+  margin: 17px;
+
+}
+.contentnhohinh{
+    width: 100%;
+  height: 50%;
+  background-color: #828282;
+    
+}
+.contentnhochu{
+    width: 100%;
+  height: 50%;
+ 
+        text-align:left;
+    box-sizing: border-box;
+    padding: 1px 5%;
+}
+.content2 {
+  width: 100%;
+  height: 100px;
+  background-color: #3072Df;
+}
+.content2a{
+    width: 60%;
+    height: 100%;
+    
+    float: left;
+    position: relative;
+}
+.content2ahinh{
+    width: 60%;
+    height: 50%;
+    background-color: #184bb6;
+    position: absolute;
+    right: 2%;
+    top:25%;
+}
+.content2b{
+    width: 40%;
+    height: 100%;
+    
+    float: left;
+    position: relative;
+}
+.content2bhinh{
+    width: 40%;
+    height: 50%;
+    background-color: #184bb6;
+    position: absolute;
+    left: 2%;
+    top:25%;
+}
+
+
+
+.content3 {
+  width: 100%;
+  height: 200px;
+  background-color: #cfcfcf;
+}
+.content3nho {
+  width: 20%;
+  margin: 20px 30px;
+  height: 80%;
+  float: left;
+  
+    
+}
+.footer {
+  width: 100%;
+  height: 60px;
+  background-color: #555555;
+}
